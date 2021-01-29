@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <h1 class="head"> CALCULATOR</h1>
+      <div class="calculator">
+        <div class="btnarea">
+            <div class="textArea">
+                <input id="input" type="text" class="text">
+                
+            </div>
+            <div class="firstrow">
+                <button onclick="btn(this)" class="actionBtn">C</button>
+                <button onclick="btn(this)" class="actionBtn">X</button>
+                <button onclick="btn(this)" class="actionBtn">%</button>
+                <button onclick="btn(this)" class="actionBtn">/</button>
+            </div>
+            <div class="secondRow">
+                <button onclick="btn(this)" class="textBtn">7</button>
+                <button onclick="btn(this)" class="textBtn">8</button>
+                <button onclick="btn(this)" class="textBtn">9</button>
+                <button onclick="btn(this)" class="actionBtn">*</button>
+            </div>
+            <div class="secondRow">
+                <button onclick="btn(this)" class="textBtn">4</button>
+                <button onclick="btn(this)" class="textBtn">5</button>
+                <button onclick="btn(this)" class="textBtn">6</button>
+                <button onclick="btn(this)"  id="btn-" class="actionBtn">-</button>
+            </div>
+            <div class="secondRow">
+                <button onclick="btn(this)" class="textBtn">1</button>
+                <button onclick="btn(this)" class="textBtn">2</button>
+                <button onclick="btn(this)" class="textBtn">3</button>
+                <button onclick="btn(this)" class="actionBtn">+</button>
+            </div>
+            <div class="secondRow">
+                <button onclick="btn(this)" class="actionBtn">SET</button>
+                <button onclick="btn(this)" class="textBtn">0</button>
+                <button onclick="btn(this)" class="textBtn">.</button>
+                <button onclick="solution()" class="actionBtn">=</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="sript.js"></script>
+</body>
+</html>
